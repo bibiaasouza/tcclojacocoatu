@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.menu{
+  background-color:  #6B2E38;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+ 
+}
+
+
+.logo{
+  width: 200px;
+}
+
+.menu a{
+  color: #f4eeed;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.opcoes{
+  text-align: center;
+  color: rgb(223, 223, 223);
+}
+
+
+/* LOJA */
+.loja{
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 15ch ;
+  bottom: 12%;
+  background-position: 100%;
+}
+
+.nome{
+  margin-left: left;
+
+}
+
+.loja h4{
+  margin-left: 9ch ;
+}
+
+.loja h5{
+  margin-left: 2ch ;
+}
+
+/* BOTAO */
+.custom-button{
+    width: 30%;
+    height: 80%;
+    border: none;
+    outline: none;
+    border-radius: 400px;
+    box-shadow: 0 0 10px rgb(0 , 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    background: #6B2E38!important;
+    color: #ffffff;;
+    padding: 15px 35px 18px 20px;
+    margin-left: -5ch ;
+  }
+
+
+ /* FOOTER */
+
+  .baixo{
+    margin-top: 90px;
+    background-color:  #6B2E38;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .itens{
+    padding: 16px;
+  }
+  
+  .menu-nav{
+    list-style:none;
+    float:left;
+  }
+  
+  .menu-nav li{
+    position:relative;
+    float:left;
+  }
+  
+  .menu-nav li a{
+    color: rgb(255, 255, 255); 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+  }
+  
+  
+  .menu-nav li ul{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px; 
+  }
+
+  /* FOTO DENTRO DA LOJA */
+  
+.inside{
+  text-align: right;
+  margin-top: -70ch;
+  margin-bottom: 10ch;
+  padding-right: 25%;
+}
